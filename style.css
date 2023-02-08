@@ -1,5 +1,16 @@
 * {
   text-align: center;
+  margin: 0;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+header {
+  padding: 20px;
+  background-color: aqua;
+  margin-bottom: 20px;
 }
 
 #meme-image-container {
@@ -35,6 +46,10 @@ nav {
   margin: 10px auto;
 }
 
+section {
+  margin: 20px;
+}
+
 #fire {
   background-color: red;
   border: 3px dashed red;
@@ -50,5 +65,14 @@ nav {
 #earth {
   background-color: green;
   border: 6px groove green;
+  font-weight: 700;
+}
+
+footer {
+  background-color: aqua;
+  padding: 20px;
+}
+
+footer p {
   font-weight: 700;
 }
